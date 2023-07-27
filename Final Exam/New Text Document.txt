@@ -1,0 +1,12 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.2);
+
+ overflow: hidden;
+
+
+ <select id="gender" name="gender">
+                  <option value="female">Female</option>
+                  <option value="male">Male</option>
+                  <option value="other">Other</option>
+                </select>
