@@ -1,0 +1,166 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+
+
+body{
+    font-family: Arial,  sans-serif;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color: #303030;
+    box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid grey;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 30px;
+    font-size: 30px;
+    margin: 0px 25px;
+}
+
+header h2{
+    padding: 30px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #303030;
+    font-weight: bold;
+}
+
+
+.blue{
+    background-color: #85dcff;
+}
+
+.blue.paw{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+section.blue.paw img{
+    height: 650px;
+}
+
+
+.paw-text{
+    width: 950px;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-size: 20px;
+    margin-right: 90px;
+}
+
+.paw-text h1{
+    font-size: 38px;
+    padding-bottom: 30px;
+}
+
+.paw-text p{
+    padding-bottom: 30px;
+}
+
+.paw button{
+    all: unset;
+    border:1px solid #303030;
+    border-radius: 8px;
+    padding: 20px 60px;
+    font-weight: bold;
+}
+
+button.donate{
+    background-color: #ffffff;
+    margin-right: 20px;
+}
+
+button.join{
+    background-color: black;
+    color: #ffffff;
+}
+
+
+.white{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.icons i{
+    color: #85dcff;
+    font-size: 100px;
+    padding-bottom: 30px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.white h2{
+    font-size: 28px;
+    padding-bottom: 30px;
+    
+}
+
+.white p{
+    font-size: 20px;
+    padding-bottom: 30px;
+    width: 500px;
+    text-align: center;
+}
+
+
+
+.list-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.list h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.list ul{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.list-menu div{
+    width: 500px;
+}
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+
+body{
+    font-family: Inter;
+}
+section{
+    display: flex;
+    max-width: 1920px;
+    height: calc();
+    margin: 15px auto;
+    height: calc(100vh - 30px);
+    background-image: url(image/background.jpg);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.normal{
+    background-color: #ffffff;
+    height: 65%;
+    width: 25%;
+}
+
+span{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.larger{
+    background-color: #ffffff;
+    height: 70%;
+    width: 25%;
+}
+
+div{
+    padding: 25px;
+    position: relative;
+}
+
+.description{
+    font-size: smaller;
+    color: #59595e;
+}
+
+
+.price{
+    padding-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+li{
+    padding-bottom:8px ;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    
+
+}
+
+button{
+    all: unset;
+    color: #ffffff;
+    background-color: black;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+i{
+    padding-right: 2px;
+}
+
