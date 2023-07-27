@@ -1,0 +1,25 @@
+header{
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    padding-top: 30px;
+    margin: 1 auto;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a{
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+
+
+header h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}

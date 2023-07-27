@@ -1,0 +1,71 @@
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    justify-content: center;
+    
+
+}
+
+body{
+    background-color:  rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    
+}
+
+img{
+    background-color: rgb(255, 255, 255);
+    border: 1px black solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+blockquote{
+    font-family: Georgia, serif;
+    float: right;
+    width: 500px;
+    padding: 10px;
+    border-left: 1px black solid;
+    font-style: italic;
+    
+}
+
+a{
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+h1, h2{
+    font-family: Georgia, serif;
+    margin-top: 50px;
+}
+
+
+
+main{
+    display: flex;
+}
+
+header{
+    width: 100%;
+    border-bottom: 1px black solid;
+    text-transform: uppercase;
+}
+
+.imageOne{
+    float: right;
+}
+
+.imageTwo{
+    float: left;
+}
+
+aside{
+    margin-left: 30px;
+}
+
+
+.author{
+    text-align: right;
+}
