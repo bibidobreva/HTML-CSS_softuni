@@ -1,0 +1,70 @@
+body{
+    
+    display: grid;
+    grid-template-areas: 
+        "head head"
+        "aside main"
+        "foot foot";
+
+     gap: 10px;  
+     grid-template-columns: 100px auto; 
+}
+
+header h1{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+aside ul{
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+
+}
+
+a{
+    display: block;
+    padding: 5px 0px;
+    color: rgb(86, 40, 129);
+    text-decoration: none;
+}
+
+header, footer, main, aside{
+    border-radius: 3px;
+    background-color:  rgb(181, 216, 255);
+    padding: 5px 10px;
+}
+
+header{
+    grid-area: head;
+}
+
+aside{
+    grid-area: aside;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: foot;
+}
+
+
+@media (max-width: 500px){
+    body{
+        display: grid;
+        grid-template-areas: 
+            "head head"
+            "aside aside"
+            "main main"
+            "foot foot";
+    }
+
+
+
+}
+
+

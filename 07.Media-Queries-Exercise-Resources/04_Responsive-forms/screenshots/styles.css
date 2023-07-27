@@ -1,0 +1,99 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+legend{
+    border: 1px solid gray;
+    padding: 5px;
+    width: 150px;
+    border-radius: 5px;
+    position: absolute;
+    top: -15px;
+    left: -1px;
+    z-index: 1;
+}
+
+div{
+    font-weight: bold;
+}
+
+
+button{
+    color: #fff;
+    background-color: rgb(36, 33, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    width: 80px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+  }
+
+
+fieldset{
+    width: 400px;
+    position: relative;
+    margin-top: 30px;
+    
+}
+
+fieldset, legend{
+    background-color: #fdfbfb;
+}
+
+input{
+    width: 300px;
+    border-radius: 3px;
+    height: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-top: 10px;
+}
+
+
+p{
+    position: relative;
+}
+
+i{
+    position: absolute;
+    right: 295px;
+    top: 5px;
+}
+
+
+@media (max-width:600px){
+    fieldset{
+        width: 200px;
+        position: relative;
+        margin-top: 30px;
+        
+    }
+
+    i{
+        position: absolute;
+        right: 288px;
+        top: 23px;
+    }
+}

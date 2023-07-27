@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(238, 238, 238);
+    padding: 20px 15%;
+}
+
+
+.head{
+  
+    border-bottom: 1.5px black solid;
+    
+}
+header h1{
+    text-transform: uppercase;
+}
+
+.head p{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.one{
+    float: right;
+}
+
+.two{
+    float: left;
+}
+
+
+blockquote{
+    float: right;
+    width: 50%;
+    border-left: 1px black solid;
+    padding: 10px;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+
+img{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1px 5px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    margin: 10px;
+}
+
+h1, h2, h3{
+    font-family: Georgia, serif;
+    font-weight:  1em/1.2;
+}
+
+
+
+.author{
+    text-align: right;
+}
+
+
+p, blockquote{
+    font-size: 23px;
+}
+
+
+
+@media(max-width: 1800px){
+    p, blockquote{
+        font-size: 23px;
+    }
+}
+
+
+
+
+
+@media(max-width: 1300px){
+    p, blockquote{
+        font-size: 21px;
+    }
+    body{
+        padding: 10px 10%;
+    }
+}
+
+@media(max-width: 800px){
+    p, blockquote{
+        font-size: 18px;
+    }
+    body{
+        padding: 10px 5%;
+    }
+}
+
+
+@media(max-width: 600px){
+    p, blockquote{
+        font-size: 16px;
+    }
+    body{
+        padding: 10px 2%;
+    }
+}
+
+
+
+@media(max-width: 500px){
+    p, blockquote{
+        font-size: 14px;
+    }
+    body{
+        padding: 10px 2%;
+    }
+}
+
+
+@media(max-width: 400px){
+    p, blockquote{
+        font-size: 12px;
+    }
+    body{
+        padding: 10px 2%;
+    }
+
+
+    .one, .two, blockquote {
+        float: unset;
+    }
+
+}
