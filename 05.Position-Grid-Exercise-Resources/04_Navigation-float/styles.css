@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(238, 238, 238);
+    padding: 10px 10%;
+}
+
+a{
+    color:rgb(0, 102, 0) ;
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.head{
+    display: flex;
+    border-bottom: 1.5px black solid;
+    justify-content: space-between;
+}
+
+.head p{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.one{
+    float: right;
+}
+
+.two{
+    float: left;
+}
+
+
+blockquote{
+    float: right;
+    width: 50%;
+    border-left: 1px black solid;
+    padding: 10px;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+
+img{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1px 5px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    margin: 10px;
+}
+
+h1, h2, h3{
+    font-family: Georgia, serif;
+    font-weight:  1em/1.2;
+}
+
+div{
+    display: flex;
+    gap: 20px;
+}
+
+.author{
+    text-align: right;
+}
+
+
+
+
