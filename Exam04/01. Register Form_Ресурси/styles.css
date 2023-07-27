@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
+
+body{
+    font-family: Mulish ;
+}
+
+
+section{
+    background-image: url(images/background.png);
+    width: 60%;
+    margin:20px auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border-radius: 8px;
+    
+}
+
+
+.form-sect{
+    width: 70%;
+    
+    background-image: url(images/form-background.png);
+    margin: 20px auto;
+    padding: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border-radius: 8px;
+}
+
+.form h2{
+    text-align: center;
+}
+
+.names {
+    display: flex;
+    justify-content: center;
+  }
+.names div{
+    display: flex;
+    flex-direction: column;
+}
+
+.email-form , .pass, .conf-pass{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.form{
+    width: 50%;
+    padding: 5px 20px;
+}
+
+
+.names input{
+    width: 80%;
+}
+
+input{
+    border-radius: 20px;
+    border: 1px solid darkslategrey;
+}
+
+form{
+    padding: 10px 0;
+}
+

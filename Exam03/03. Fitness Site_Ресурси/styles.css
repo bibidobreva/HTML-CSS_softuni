@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans%7CPT+Serif);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+
+
+body{
+    font-family: PT Sans, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d01919;
+    color: #fff;
+    padding: 5px 25px;
+    font-size: 18px;
+}
+
+header ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+header ul li a{
+    color: #fff;
+}
+
+
+.site-intro{
+    background-image: url(image/fitness-main.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin: 0;
+    padding-bottom: 70px;
+}
+
+.site-intro ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 80px;
+    padding: 30px 40px;
+    font-size: 20px;
+}
+
+
+.site-intro a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-intro{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    padding: 80px;
+}
+
+.main-intro h1{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    padding-top: 30px;
+    word-spacing: 10px;
+}
+
+.main-intro p{
+    width: 30%;
+    margin: auto;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.main-intro button{
+    all: unset;
+    background-color: #d01919;
+    width: 110px;
+    margin: auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.welcome h2{
+    text-align: center;
+    font-size: 42px;
+    padding: 35px;
+}
+
+.line{
+    width: 70px;
+    height: 2.5px;
+    background-color: #d01919;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.descrip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    
+}
+
+.fit-info img{
+    width: 80px;
+    margin: auto;
+}
+
+.fit-info{
+    width: 20%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.fit-info h3{
+    color: #d01919;
+    padding: 30px;
+}
+
+.fit-info p{
+    font-size: 19px;
+    padding-bottom: 30px;
+}
+
+.welcome{
+    padding-bottom: 80px;
+}
+
+.coaches{
+    background-color: #efefef;
+    padding-bottom: 80px;
+}
+
+.coaches h2{
+    text-align: center;
+    font-size: 42px;
+    padding: 35px;
+}
+
+.card-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.card img{
+    margin: auto;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.card{
+    width: 20%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card h3{
+    padding: 10px;
+
+}
+
+.card h4{
+    color: #d01919;
+}
+
+.card p{
+    color: #a9a8b1;
+    padding: 20px;
+    font-size: 18px;
+}
+
+footer{
+    background-color: #d01919;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
